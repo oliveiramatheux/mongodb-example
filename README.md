@@ -1,4 +1,4 @@
-# Mongo DB example project with nodejs and mongoose.
+# Mongo DB example project with NodeJS and Mongoose.
 
 - 💬 Description and objective: Make a Mongo DB example project with NodeJS and Mongoose.
 

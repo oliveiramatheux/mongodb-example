@@ -1,7 +1,7 @@
 {
   "name": "mongodb-example",
   "version": "1.0.0",
-  "description": "Mongo DB example project with nodejs and mongoose.",
+  "description": "Mongo DB example project with NodeJS and Mongoose.",
   "main": "index.js",
   "type": "module",
   "scripts": {

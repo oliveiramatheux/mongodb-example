@@ -1,7 +1,7 @@
 import { getUserById, createNewUser, deleteUserById, updateUserById, getUserByEmail } from '../repositories/user.js'
 
 const mockRequestCreateUser = {
-  name: 'teste',
+  name: 'Test01',
   email: 'teste@teste.com',
   password: 'teste123'
 }
@@ -16,7 +16,7 @@ const databaseTest = async () => {
     const newUser = await createNewUser(mockRequestCreateUser)
     console.log('Novo usuário criado: ', newUser.email)
 
-    const updatedUser = await updateUserById(newUser.id, { name: 'Test' })
+    const updatedUser = await updateUserById(newUser.id, { name: 'Test02' })
     console.log(`Alterando nome de usuário de ${newUser.name} para ${updatedUser.name}.`)
 
     const userResponse = await getUserById(updatedUser.id)
