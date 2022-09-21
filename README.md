@@ -28,7 +28,7 @@ On your folder that you clone the project (you can use yarn or npm):
 
 ```bash
 yarn
-Create a ".env" file in the project root with your MongoDB cluster settings
+Create a ".env" file like as the "test.env" file in the project root with your MongoDB cluster settings
 yarn start
 ```
 
